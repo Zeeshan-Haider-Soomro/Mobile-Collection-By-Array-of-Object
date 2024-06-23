@@ -141,7 +141,7 @@ function collections(){
     <p class="card-text">Price: ${mobiles[i].price}</p>
     <p class="card-text">Specification: ${mobiles[i].spec}</p>
     <p class="card-text">Colors: ${mobiles[i].color}</p>
-    <a href="${mobiles[i].location}" class="btn btn-danger w-100">Buy Now</a>
+    <a href="${mobiles[i].location}" target="_blank" class="btn btn-danger w-100">Buy Now</a>
   </div>
 </div>`
     }
