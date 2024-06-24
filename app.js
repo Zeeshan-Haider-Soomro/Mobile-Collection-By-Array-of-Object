@@ -1,4 +1,8 @@
 
+let date = new Date()
+let yearChanger = document.querySelector("#yearChanger")
+yearChanger.innerText = `${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`
+
 
 let mobiles = [{
     mobileName : 'Oppo A3 Pro',
